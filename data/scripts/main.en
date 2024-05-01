@@ -1,0 +1,14 @@
+init: 1200, 800;
+font:data/font/beer money.ttf;
+fps:120;
+if bttn_press
+{
+int money=money+1;	
+txt:mon:1000, 5: 60:money;
+};
+int money=0;
+spr: 0, 0: data/image/bg.jpg;
+txt:mon:1000, 5: 60:money;
+txt:jegbhlkefvbolblev:1100, 700: 20: *Клик*;
+spr: 540, 335: data/image/fun.png;
+bttn:0, 0, 1200, 800:bttn_press;
